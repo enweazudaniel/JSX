@@ -3,7 +3,8 @@ import ReactDOM from "react-dom";
 const name = "hetti";
 const fName = "Enweazu";
 const lName = "Daniel";
-const copyright = "Copyright 2022";
+const d = new Date();
+const year = d.getFullYear();
 ReactDOM.render(
   <div>
     <h1>My Favorite Food</h1>
@@ -15,7 +16,7 @@ ReactDOM.render(
         <li>Momos</li>
         <li>Fried Rice</li>
       </ul>
-      {copyright}
+      Copyright {year}
     </p>
   </div>,
   document.getElementById("root")
