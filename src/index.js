@@ -5,6 +5,7 @@ ReactDOM.render(
   <div>
     <h1>My Favorite Food</h1>
     <p>
+      Your lucky number {Math.floor(Math.random() * 10)}
       <ul>
         <li>Spag{name}</li>
         <li>Momos</li>
