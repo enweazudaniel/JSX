@@ -7,7 +7,7 @@ const d = new Date();
 const year = d.getFullYear();
 ReactDOM.render(
   <div>
-    <h1>My Favorite Food</h1>
+    <h1 className="heading">My Favorite Food</h1>
     <p>
       {fName} {lName} {}
       Your lucky number {Math.floor(Math.random() * 10)}
