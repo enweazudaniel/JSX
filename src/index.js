@@ -8,16 +8,11 @@ const year = d.getFullYear();
 ReactDOM.render(
   <div>
     <h1 className="heading">My Favorite Food</h1>
-    <p>
-      {fName} {lName} {}
-      Your lucky number {Math.floor(Math.random() * 10)}
-      <ul>
-        <li>Spag{name}</li>
-        <li>Momos</li>
-        <li>Fried Rice</li>
-      </ul>
-      Copyright {year}
-    </p>
+    <img
+      className="food-img"
+      alt="spaghetti"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU1eJylAOoW16FYeF_t5-xneKlemWuPEAHGFyF9o_G61vb-hJwhu2qJLPMaMVnjod9ZVg&usqp=CAU"
+    />
   </div>,
   document.getElementById("root")
 );
